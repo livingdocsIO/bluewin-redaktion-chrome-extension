@@ -28,7 +28,7 @@ function addLdEditLinks(document, hostConfig) {
       }
       else {
         return (
-          (url.startsWith("/") || url.startsWith(`https://${hostConfig.hostname}`)) &&
+          (url.startsWith("/") || url.startsWith(`https://${hostConfig.hostname}`) || url.startsWith(`http://${hostConfig.hostname}`)) &&
           url.match(articleRegExIdentifier)
         );
       }

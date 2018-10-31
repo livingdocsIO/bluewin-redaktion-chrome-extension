@@ -23,7 +23,7 @@ const actionsListElement = document.querySelector(".actions");
 
 chrome.tabs.getSelected(null, function(tab) {
   const hostConfig = config.hosts.find(hostConfig => {
-    return tab.url.startsWith(`https://${hostConfig.hostname}`);
+    return tab.url.startsWith(`https://${hostConfig.hostname}`) || tab.url.startsWith(`http://${hostConfig.hostname}`);
   });
 
   if (!hostConfig) {

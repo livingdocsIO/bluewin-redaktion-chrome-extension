@@ -27,7 +27,8 @@
     "tabs",
     "https://*.bluewin.ch/*",
     "https://*.sctv.ch/*",
-    "https://*.213.3.79.35/*"
+    "https://*.213.3.79.35/*",
+    "http://*.213.3.79.35/*"
   ],
   "omnibox": {
     "keyword": "bluewin",
@@ -38,7 +39,8 @@
       "matches": [
         "https://*.sctv.ch/*",
         "https://*.bluewin.ch/*",
-        "https://*.213.3.79.35/*"
+        "https://*.213.3.79.35/*",
+        "http://*.213.3.79.35/*"
       ],
       "css": [
         "src/inject/inject.css"
@@ -48,7 +50,8 @@
       "matches": [
         "https://*.sctv.ch/*",
         "https://*.bluewin.ch/*",
-        "https://*.213.3.79.35/*"
+        "https://*.213.3.79.35/*",
+        "http://*.213.3.79.35/*"
       ],
       "js": [
         "src/inject/inject.js"
