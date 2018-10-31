@@ -29,10 +29,10 @@ Once you download the extension, here is how to unpack it:
   </tr>
   <tr>
     <td>
-      <img src="https://user-images.githubusercontent.com/1632188/47791817-d3f90280-dd1a-11e8-90a0-b20c0722d077.png">
+      <img src="https://user-images.githubusercontent.com/1632188/47791818-d4919900-dd1a-11e8-9c3f-e497ddcd20c8.png">
     </td>
     <td>
-      <img src="https://user-images.githubusercontent.com/1632188/47791818-d4919900-dd1a-11e8-9c3f-e497ddcd20c8.png">
+      <img src="https://user-images.githubusercontent.com/1632188/47792180-c3955780-dd1b-11e8-8f4a-97826e6c86ee.png">
     </td>
   </tr>
 </table>
