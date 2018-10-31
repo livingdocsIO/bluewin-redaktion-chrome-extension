@@ -1,0 +1,58 @@
+{
+  "name": "Bluewin Redaktion",
+  "version": "0.0.3",
+  "manifest_version": 3,
+  "description": "Utilities for people working at Bluewin",
+  "homepage_url": "https://wwww.bluewin.ch",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": ["src/bg/background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "page action demo",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "permissions": [
+    "declarativeContent",
+    "contextMenus",
+    "cookies",
+    "notifications",
+    "tabs",
+    "https://*.bluewin.ch/*",
+    "https://*.sctv.ch/*",
+    "https://*.213.3.79.35/*"
+  ],
+  "omnibox": {
+    "keyword": "bluewin",
+    "keyword": "sctv"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.sctv.ch/*",
+        "https://*.bluewin.ch/*",
+        "https://*.213.3.79.35/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://*.sctv.ch/*",
+        "https://*.bluewin.ch/*",
+        "https://*.213.3.79.35/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
