@@ -19,14 +19,14 @@ Once you download the extension, here is how to unpack it:
 ## What changes in the UI
 
 <table>
-  <th>
+  <tr>
     <td>
       Before
     </td>
     <td>
       After
     </td>
-  </th>
+  </tr>
   <tr>
     <td>
       <img src="https://user-images.githubusercontent.com/1632188/47791817-d3f90280-dd1a-11e8-90a0-b20c0722d077.png">
